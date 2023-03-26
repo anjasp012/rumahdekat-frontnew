@@ -1,0 +1,53 @@
+.pages-produk {
+    h5.section-title {
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+
+    p.section-info {
+        color: #64748b;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .rumahdekat-search-filter {
+        margin-top: 30px;
+        position: relative;
+        z-index: 1;
+
+        .nav {
+            @include media-breakpoint-up(md) {
+                background-color: transparent;
+            }
+            background-color: #ffffff;
+            .nav-link {
+                padding: 6px 16px;
+                margin-right: 4px;
+                @include media-breakpoint-up(md) {
+                    font-size: 14px;
+                }
+                font-size: 12px;
+                font-weight: 700;
+                background-color: #ffffff;
+                color: black;
+                border-radius: 4px 4px 0px 0px;
+                &.active,&:hover {
+                    font-weight: 700;
+                    color: #ffffff;
+                    background-color: #8B2211;
+                }
+            }
+        }
+
+        h5 {
+            font-weight: 700;
+        }
+    }
+
+    .rumahdekat-filters {
+        margin-top: 30px;
+    }
+    .rumahdekat-produk {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,19 @@
+.rumahdekat-breadcrumbs {
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-weight: 700;
+    }
+    a {
+        text-decoration: none;
+        color: #334155;
+        &:hover {
+            color: #8B2211;
+        }
+    }
+    .breadcrumb-item.active {
+        color: #8B2211;
+    }
+}

@@ -1,0 +1,77 @@
+.pages-detail-produk {
+    .rumahdekat-detail-produk {
+        margin-bottom: 22px;
+
+        #gallery {
+            .gallery-thumbnail-active {
+                width: 100%;
+                height: 180px;
+
+                @include media-breakpoint-up(sm) {
+                    height: 300px;
+                }
+
+                border-radius: 5px;
+                overflow: hidden;
+
+                .gallery-image-active {
+                    width: 100%;
+                    height: 100%;
+                    background-position: center;
+                    background-color: #ddd;
+                    background-repeat: no-repeat;
+                }
+            }
+            .gallery-thumbnail-item {
+                height: 45px;
+
+                @include media-breakpoint-up(sm) {
+                    height: 75px;
+                }
+
+                border-radius: 5px;
+                overflow: hidden;
+                margin-bottom: 10px;
+
+                .gallery-image-item {
+                    width: 100%;
+                    height: 100%;
+                    background-position: center;
+                    background-color: #ddd;
+                    background-repeat: no-repeat;
+                    border-radius: 5px;
+                    border: 3px solid transparent;
+
+                    &.active {
+                        border: 3px solid #8B2211;
+                    }
+                }
+            }
+        }
+    }
+
+    .rumahdekat-deskripsi-produk {
+        margin-bottom: 22px;
+
+        .nav {
+            .nav-link {
+                padding: 4px 20px;
+                border-radius: 4px;
+                font-size: 14px;
+                font-weight: 700;
+
+                &.active {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+    .rumahdekat-info-produk {
+        margin-bottom: 22px;
+    }
+
+    .rumahdekat-produk-serupa {
+        margin-bottom: 22px;
+    }
+}

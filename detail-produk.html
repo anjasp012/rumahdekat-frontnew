@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/swiperJs/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="info-top py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2 start">
+                    <div>rumahdekat@gmail.com</div>
+                    <div>6281388515474</div>
+                </div>
+                <div class="d-flex gap-2 end">
+                    <a href="" class="btn btn-sm btn-twitter rounded-circle"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="btn btn-sm btn-facebook rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="btn btn-sm btn-instagram rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="btn btn-sm btn-linkedin rounded-circle"><i class="bi bi-linkedin"></i></a>
+                    <a href="" class="btn btn-sm btn-youtube rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-rumahdekat shadow-sm bg-white" id="navbar">
+        <div class="container">
+            <div class="d-flex align-items-center gap-2">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="/" class="navbar-brand text-primary">Setup to Go</a>
+            </div>
+            <div class="offcanvas offcanvas-start w-75 text-bg-white" tabindex="-1" id="offcanvasNavbar2"
+                aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <a href="/" class="navbar-brand">Setup to Go</a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/produk.html" class="nav-link">Produk</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-on-hover">
+                            <div>
+                                <a
+                                class="nav-link"
+                                href=".-on-hover.html"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Berita
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-level-1">
+                                <li>
+                                    <a class="dropdown-item" href="./berita.html"
+                                        >Semua berita</a
+                                    >
+                                </li>
+                                <li
+                                    class="dropdown-item dropend px-0 py-0"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        type="button"
+                                        data-bs-toggle="dropdown"
+                                        data-bs-auto-close="true"
+                                        aria-expanded="false"
+                                    >
+                                        Kategori Berita &raquo;
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-level-2">
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Rumah</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Penginapan</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Hotel</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dropdown-berita">
+                            <div>
+                                <a
+                                class="nav-link text-truncate"
+                                href="./tips&trik.html"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Tips & Trik
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-level-1">
+                                <li>
+                                    <a class="dropdown-item" href="./tips&trik.html"
+                                        >Semua Tips & Trik</a
+                                    >
+                                </li>
+                                <li
+                                    class="dropdown-item dropend px-0 py-0"
+                                >
+                                    <a
+                                        class="dropdown-item"
+                                        type="button"
+                                        data-bs-toggle="dropdown"
+                                        data-bs-auto-close="true"
+                                        aria-expanded="false"
+                                    >
+                                        Kategori Tips & Trik &raquo;
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-level-2">
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Rumah</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Penginapan</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#"
+                                                >Hotel</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/index.html" class="nav-link">Info</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-auto d-none d-lg-flex">
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="bi bi-box-arrow-in-right me-1"></i>Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link"><i class="bi bi-person me-1"></i>Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-content pages-detail-produk">
+        <section class="rumahdekat-breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="produk.html">Produk</a>
+                                </li>
+                                <li class="breadcrumb-item active">
+                                    Detail produk
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <section class="rumahdekat-detail-produk">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-5" id="gallery">
+                                        <div class="gallery-thumbnail-active">
+                                            <a target="_blank" :href="photos[activePhoto].url">
+                                                <transition name="slide-fade" mode="out-in">
+                                                    <div class="gallery-image-active" :key="photos[activePhoto].id" :style="{ 'backgroundImage': 'url(' + photos[activePhoto].url + ')', 'backgroundSize': ''+ photos[activePhoto].size +'' }"></div>
+                                                </a>
+                                                <!-- <img style="background-size: contain;" :src="photos[activePhoto].url" :key="photos[activePhoto].id"> -->
+                                            </transition>
+                                        </div>
+                                        <div class="row mt-1 g-2 flex-nowrap overflow-auto">
+                                            <div class="col-3 gallery-thumbnail-item" v-for="(photo, index) in photos" :key="photo.id">
+                                                <a href="#" @click="changeActive(index)">
+                                                    <div class="gallery-image-item" :class="{active: index == activePhoto}" :style="{ 'backgroundImage': 'url(' + photo.url + ')', 'backgroundSize': ''+ photo.size +'' }"></div>
+                                                </a>
+                                                    <!-- <a href="#" @click="changeActive(index)">
+                                                    <img :src="photo.url" class="w-100 thumbnail-image rounded"
+                                                        :class="{active: index == activePhoto}" alt="">
+                                                </a> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">details</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="rumahdekat-deskripsi-produk">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-white border-0 p-0 m-0">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-deskripsi" type="button" role="tab"
+                                            aria-controls="pills-deskripsi" aria-selected="true">Deskripsi</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-spesifikasi" type="button" role="tab"
+                                            aria-controls="pills-spesifikasi" aria-selected="false">Spesifikasi</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-area" type="button" role="tab"
+                                            aria-controls="pills-area" aria-selected="false">Area</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-review" type="button" role="tab"
+                                            aria-controls="pills-review" aria-selected="false">Review</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-tanya-jawab" type="button" role="tab"
+                                            aria-controls="pills-tanya-jawab" aria-selected="false">Tanya
+                                            jjawab</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-body">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-deskripsi" role="tabpanel"
+                                        aria-labelledby="pills-deskripsi-tab" tabindex="0">
+                                        deskripsi Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda et
+                                        debitis expedita maiores, vel officiis ipsam iste quisquam cum labore numquam
+                                        aut ullam aliquid fugit ratione adipisci libero natus quasi odit veritatis? Eum
+                                        asperiores ipsam quia ipsa quasi debitis perspiciatis veniam ducimus enim ut, id
+                                        aut quae. Recusandae reprehenderit, magnam nihil molestiae repellat quasi! Optio
+                                        aliquid sint iure officiis illo in, consequatur iusto suscipit? Expedita rem
+                                        impedit porro quae veniam facilis magnam ducimus ea esse eaque laborum error
+                                        consequatur debitis voluptatem id voluptatum, fuga pariatur illum assumenda
+                                        officiis consequuntur. Labore, eius atque culpa deleniti tenetur voluptate
+                                        aspernatur iusto. Suscipit, modi!
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-spesifikasi" role="tabpanel"
+                                        aria-labelledby="pills-spesifikasi-tab" tabindex="0">
+                                        Spesifikasi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, deserunt.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-area" role="tabpanel"
+                                        aria-labelledby="pills-area-tab" tabindex="0">
+                                        area Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eos!
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-review" role="tabpanel"
+                                        aria-labelledby="pills-review-tab" tabindex="0">
+                                        review Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quia magnam iste ex placeat.
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-tanya-jawab" role="tabpanel"
+                                        aria-labelledby="pills-tanya-jawab-tab" tabindex="0">tanya jawab Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-3">
+                    <section class="rumahdekat-info-produk">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+                    </section>
+                    <section class="rumahdekat-produk-serupa">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body">
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="py-5">
+                <div class="row g-5">
+                    <div class="col-12 col-lg-6">
+                        <h4>SETUP TO GO</h4>
+                        <p class="footer-info">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eaque excepturi neque, mollitia repudiandae maiores eum aliquam consectetur molestias. Exercitationem explicabo aperiam deserunt recusandae veniam animi distinctio fugiat laudantium suscipit earum voluptatum, quis odio sint ratione incidunt nulla illum voluptas ex ad autem molestias est. Eveniet, quis fugit quisquam ad at unde esse, consequuntur dicta fuga numquam laboriosam a pariatur. Earum nobis nesciunt corrupti eius sit ratione maxime voluptatibus unde laudantium id architecto accusamus, nam esse cumque libero dolore, reiciendis eligendi qui excepturi, laborum adipisci omnis? Sed esse dolor quia? Quia libero delectus, esse inventore earum atque dolores soluta nostrum.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <form action="">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nama" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="nama" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="subject" class="form-label">subject</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="subject" class="form-label">subject</label>
+                                    <textarea class="form-control" id="subject" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary" type="submit">Submit form</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="info-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2 start">
+                    <div>© Copyright <b>RUMAH DEKAT.</b> All Rights Reserved </div>
+                </div>
+                <div class="d-flex gap-2 end">
+                    <a href="" class="btn btn-sm btn-twitter rounded-circle"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="btn btn-sm btn-facebook rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="btn btn-sm btn-instagram rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="btn btn-sm btn-linkedin rounded-circle"><i class="bi bi-linkedin"></i></a>
+                    <a href="" class="btn btn-sm btn-youtube rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="toTopBtn" class="btn btn-primary d-block py-2" data-abc="true"><i class="bi bi-arrow-up"></i></button>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/swiperJs/js/swiper-bundle.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/backToTop.js"></script>
+    <script src="script/navbar.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/vendor/vue/vue.js"></script>
+    <script>
+        var gallery = new Vue({
+            el: '#gallery',
+            mounted() {
+                AOS.init();
+            },
+            data: {
+                activePhoto: 0,
+                photos: [
+                    {
+                        id: 1,
+                        url: "/images/details-1.jpg",
+                        size: "cover"
+                    },
+                    {
+                        id: 2,
+                        url: "/images/details-2.jpg",
+                        size: "cover"
+                    },
+                    {
+                        id: 3,
+                        url: "/images/details-3.jpg",
+                        size: "cover"
+                    },
+                    {
+                        id: 4,
+                        url: "/images/details-4.jpg",
+                        size: "cover"
+                    },
+                    {
+                        id: 5,
+                        url: "https://swiperjs.com/demos/images/nature-1.jpg",
+                        size: "cover"
+                    },
+                ],
+            },
+            methods: {
+                changeActive(id) {
+                    this.activePhoto = id;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

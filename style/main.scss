@@ -1,0 +1,25 @@
+@import "colors";
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "icons";
+
+@import "pages/home";
+@import "pages/detail-produk";
+@import "pages/produk";
+@import "pages/berita";
+@import "pages/detail-berita";
+@import "pages/auth";
+@import "pages/info";
+
+@import "components/navbar";
+@import "components/kategori";
+@import "components/berita";
+@import "components/breadcrumb";
+@import "components/button-custom";
+@import "components/produk";
+@import "components/nav-kategori";
+@import "components/carousel";
+
+@import "transitions/slide-fade";

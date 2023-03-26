@@ -1,0 +1,21 @@
+.nav-kategori {
+    .nav-item {
+        margin-right: 8px;
+        .nav-link {
+            border-radius: 5px;
+            padding: 4px 10px;
+            font-size: 14px;
+
+            &.active {
+                font-weight: 700;
+            }
+            &:not(.active) {
+                color: black;
+                font-weight: 600;
+            }
+            &:not(.active):hover {
+                background: #ddd;
+            }
+        }
+    }
+}

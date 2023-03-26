@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/swiperJs/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="page-content pages-auth">
+        <section class="rumahdekat-auth">
+            <div class="container">
+                <div class="row justify-content-center min-vh-100 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="card card-auth shadow-sm">
+                            <div class="card-header">
+                                <img src="images/rumahdekat.jpeg" alt="">
+                                <h5>Silahkan Daftar</h5>
+                            </div>
+                            <div class="card-body">
+                                <form action="">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-11">
+                                            <div class="mb-3">
+                                                <div class="row g-3">
+                                                    <div class="col-lg-6">
+                                                        <input type="text" name="nama" id="nama"
+                                                            class="form-control form-control-lg" placeholder="Nama Lengkap">
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" name="no_telepon" id="no_telepon"
+                                                            class="form-control form-control-lg" placeholder="No Telepon">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <textarea name="alamat" id="alamat"
+                                                    class="form-control form-control-lg" placeholder="Alamat"></textarea>
+                                            </div>
+                                            <div class="mb-3">
+                                                <input type="email" name="email" id="email"
+                                                    class="form-control form-control-lg" placeholder="Email">
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="input-group">
+                                                    <input type="password"
+                                                        class="form-control form-control-lg rounded-1 bg-white "
+                                                        placeholder="Password" name="password">
+                                                    <span class="input-group-text" id="show-password"><i class="bi bi-search"></i></span>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-lg w-100">Masuk</button>
+                                            </div>
+                                            <div class="mb-3 text-center">
+                                                <a href="index.html" class="text-decoration-none">&#8701; Kembali Ke
+                                                    Home</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card-footer">
+                                Sudah Punya Akun Setup to Go ? <a href="login.html">Masuk Disini</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/swiperJs/js/swiper-bundle.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/backToTop.js"></script>
+    <script src="script/navbar.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.5,
+            spaceBetween: 8,
+            breakpoints: {
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 8,
+                },
+            }
+        });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

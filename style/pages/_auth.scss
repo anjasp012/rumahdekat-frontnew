@@ -1,0 +1,28 @@
+.pages-auth {
+    .rumahdekat-auth {
+        .card-auth {
+            border: none;
+            .card-header {
+                img {
+                    width: 25%;
+                }
+                border: none;
+                background: #ffffff;
+                text-align: center;
+            }
+            .input-group-text {
+                cursor: pointer;
+                :hover {
+                    color: #8B2211;
+                }
+            }
+            .card-footer {
+                text-align: center;
+                border: none;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

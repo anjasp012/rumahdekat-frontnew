@@ -1,0 +1,46 @@
+.pages-detail-berita {
+    .rumahdekat-detail-berita {
+        margin-bottom: 22px;
+        .detail-berita-thumbnail {
+            margin-bottom: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .detail-berita-title{
+            font-weight: 700;
+        }
+        .detail-berita-body {
+            width: 100%;
+        }
+        .detail-berita-tags {
+            width: 100%;
+            margin-top: 30px;
+            font-weight: 700;
+        }
+    }
+    .rumahdekat-berita-serupa {
+        .card-header {
+            border: none;
+            background: #ffffff;
+            h6 {
+                font-weight: 700;
+                margin: 0px;
+            }
+        }
+        .component-berita{
+            border: 1px solid #F1F5F9;
+            .berita-thumbnail {
+                width: 100%;
+                height: 132px;
+                @include media-breakpoint-up(lg) {
+                    height: 160px;
+                }
+
+                border-radius: 5px;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
+}

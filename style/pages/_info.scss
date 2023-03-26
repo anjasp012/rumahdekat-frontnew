@@ -1,0 +1,41 @@
+.pages-info {
+    .rumahdekat-kontak {
+        margin-top: 22px;
+        margin-bottom: 22px;
+        h5.section-title {
+            font-weight: 900;
+            margin-bottom: 10px;
+            text-align: center;
+            display: block;
+        }
+        .google_map {
+            * {
+                width: 100%;
+                height: 300px;
+                border: 1px solid #ddd;
+            }
+        }
+    }
+    .rumahdekat-about {
+        min-height: 30vh;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        h5.section-title {
+            font-weight: 900;
+            margin-bottom: 10px;
+            text-align: center;
+            display: block;
+        }
+    }
+    .rumahdekat-visimisi {
+        min-height: 30vh;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        h5.section-title {
+            font-weight: 900;
+            margin-bottom: 10px;
+            text-align: center;
+            display: block;
+        }
+    }
+}

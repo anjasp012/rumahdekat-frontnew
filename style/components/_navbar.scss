@@ -1,0 +1,44 @@
+.navbar-rumahdekat {
+    transition: all 1s ease-in-out;
+    padding: 0px 0px;
+    .navbar-brand {
+        font-weight: 900;
+        font-size: 24px;
+    }
+    .nav-item {
+        @include media-breakpoint-up(lg) {
+            display: block;
+        }
+        display: flex;
+
+        .nav-link {
+            font-weight: 600;
+            transition: all 0.1s ease;
+            border-radius: 2px;
+            border-bottom: 3px solid transparent;
+            padding-bottom: 0px;
+            @include media-breakpoint-up(lg) {
+                margin-left: 3px;
+                margin-right: 3px;
+                padding-bottom: 0px;
+                border-bottom: none;
+            }
+            &.active,&:hover {
+                color: #8B2211;
+                padding-bottom: 0px;
+                border-bottom: 3px solid #8B2211;
+                transition: all 0.1s ease-out;
+            }
+
+            &.text-truncate{
+                width: auto;
+                @include media-breakpoint-up(lg) {
+                    width: 60px;
+                }
+                @include media-breakpoint-up(xl) {
+                    width: auto;
+                }
+            }
+        }
+    }
+}
